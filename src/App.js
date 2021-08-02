@@ -24,7 +24,7 @@ import CommentPage from "./pages/comment"
 import UserProfile from "./pages/user_profile"
 import Chat from "./pages/chat"
 import { SnackbarProvider } from 'notistack';
-
+import VerificationPage from './pages/verifyEmail';
 
 
 
@@ -105,7 +105,7 @@ function App(props) {
                 <Route exact path="/gists" component={mobile ? Mobile : PublicGists} />
                 <Route exact path="/login" component={mobile ? Mobile : Login} />
                 <Route exact path="/signup" component={mobile ? Mobile : Signup} />
-
+                <Route  exact path='/verify' component={VerificationPage} />
                 {/* <Route path="/public/editor/:lang/:id" component={NoEditEditor} /> */}
                 <Route exact path="/public/editor/:id" component={mobile ? Mobile : PublicEditor} />
                 <Route exact path="/edit/:id" component={mobile ? Mobile : TextEditor} />

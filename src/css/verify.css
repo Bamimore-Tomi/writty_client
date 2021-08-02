@@ -1,0 +1,59 @@
+div{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+section{
+    width: 50%;
+    margin-left: 27em;
+
+
+}
+.card{
+    box-shadow: 3px 8px 8px 3px rgba(12, 12, 12, 0.3), 2px 6px 20px 2px rgba(0, 0,0, 0.19) !important;
+    border-radius: 12px !important;
+
+}
+.otp{
+    margin-left:6em;
+}
+.card .card-header{
+    border-bottom: 1px solid gray;
+}
+
+.inst{
+    margin-left:11em ;
+}
+.instr{
+    margin-left:14.8em;
+}
+
+.dot{
+    border: 0;
+    font-size: 27px;
+    margin-left: 2px;
+    max-width: 67% !important;
+    background: gray;
+    border-radius: 20px;
+    padding: 5px;
+}
+form{
+    margin-left: 7.6em;
+    padding-left:9px;
+}
+
+input:focus{
+
+   outline: none;
+
+}
+input::placeholder{
+    color: black;
+
+}
+
+ .btn{
+    border-radius: 13px !important;
+    margin-left: -1.3em !important;
+}
+
